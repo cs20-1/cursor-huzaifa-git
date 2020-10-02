@@ -7,7 +7,11 @@
 def setup():
     size(500, 500)
     noStroke()
+
+
 def draw():
+    """makes a cursor of 4 circles around mouse and allows
+    background to change if mousePressed"""
     background(75)
     if mousePressed:
         background(255, 10, 67)
